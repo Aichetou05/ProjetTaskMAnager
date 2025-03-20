@@ -54,43 +54,6 @@
     z-index: 12;
 }
 
-.container .cover .text{
-    position: absolute;
-    z-index: 10;
-    height: 100%;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-
-}
-
-.container .cover .text::before{
-    content: '';
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    background: #d4995b;
-    opacity: 0.5;
-}
-
-
-.cover .text .text-1,
-.cover .text .text-2{
-    text-align: center;
-    font-size: 26px;
-    font-weight: 700;
-    color: #d6cdc6;
-    z-index: 20;
-}
-
-.cover .text .text-2{
-    font-size: 15px;
-    font-weight: 400;
-    color: #824f28;
-}
-
 .container .forms{
     height: 100%;
     width: 100%;
