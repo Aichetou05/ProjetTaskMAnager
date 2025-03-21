@@ -13,6 +13,7 @@
 </head>
 <body>
     <div class="container">
+        <div id="error-msg"></div>
         <input type="checkbox" id="chex">
         <div class="cover">
             <div class="front">
@@ -30,12 +31,16 @@
                     <div class="title">Login</div>
                     <div class="input-boxes">
                         <div class="input-box">
+                            <i class="fas fa-user"></i>
+                            <input type="text" name="username" placeholder="Enter your user name" required>
+                        </div>
+                        <div class="input-box">
                             <i class="fas fa-envelope"></i>
-                            <input type="email" placeholder="Enter your email" required>
+                            <input type="email" name="email" placeholder="Enter your email" required>
                         </div>
                         <div class="input-box">
                             <i class="fas fa-lock"></i>
-                            <input type="password" placeholder="Enter your password" required>
+                            <input type="password" name="password" placeholder="Enter your password" required>
                         </div>
                         <div class="text">
                             <a href="#">Forgot password?</a>
@@ -71,7 +76,9 @@
                         <div class="text sign-up-text">Do you have an account? <label for="chex"> login now </label></div>
                     </div>
                 </div>
-           </div>
-        </form>
+            </form>
+        </div>
     </div>
+    <script src="../js/auth.js"></script>
+</body>
 </html>
